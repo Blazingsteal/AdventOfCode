@@ -1,4 +1,6 @@
-class Day1 {
+package WeekOne
+
+class DayOne {
 
     private val expenseReport = listOf(
         1337, 1906, 2007, 1939, 818,
@@ -21,6 +23,7 @@ class Day1 {
     )
 
 
+    //Part two
     fun twoSum2020() {
         var one = 0
         var two = 0
@@ -36,6 +39,7 @@ class Day1 {
         println("Final number: ${one * two}")
     }
 
+    //Part two
     fun threeSum2020(){
         var one = 0
         var two = 0
