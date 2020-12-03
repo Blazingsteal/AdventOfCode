@@ -1,4 +1,4 @@
-package WeekOne
+package weekOne
 
 class DayOne {
 

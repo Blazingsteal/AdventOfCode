@@ -1,4 +1,4 @@
-package WeekOne
+package weekOne
 
 import java.io.File
 
