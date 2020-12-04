@@ -5,7 +5,7 @@ import java.io.File
 class DayTwo {
 
     private val passwordList = mutableListOf<String>()
-    private val passwordFile = File("./dayTwo.txt")
+    private val passwordFile = File("./inputs/dayTwo.txt")
 
     fun readPasswordFile() {
         passwordFile.useLines { lines ->

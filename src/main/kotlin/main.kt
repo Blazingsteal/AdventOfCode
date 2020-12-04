@@ -15,19 +15,26 @@ fun main(args: Array<String>) {
 //    d2.validatePasswordsByIndex()
 
     //Day Three
-    val d3 = DayThree()
-    d3.readMapFile()
-    //Part One
-    println("Part One")
-    d3.traverseMap(3, 1)
+//    val d3 = DayThree()
+//    d3.readMapFile()
+//    //Part One
+//    println("Part One")
+//    d3.traverseMap(3, 1)
+//
+//    //Part Two
+//    println("\nPart Two")
+//    val routeOne = d3.traverseMap(1, 1)
+//    val routeTwo = d3.traverseMap(3, 1)
+//    val routeThree = d3.traverseMap(5, 1)
+//    val routeFour = d3.traverseMap(7, 1)
+//    val routeFive = d3.traverseMap(1, 2)
+//    println("Answer is ${routeOne*routeTwo*routeThree*routeFour*routeFive}")
 
-    //Part Two
-    println("\nPart Two")
-    val routeOne = d3.traverseMap(1, 1)
-    val routeTwo = d3.traverseMap(3, 1)
-    val routeThree = d3.traverseMap(5, 1)
-    val routeFour = d3.traverseMap(7, 1)
-    val routeFive = d3.traverseMap(1, 2)
-    println("Answer is ${routeOne*routeTwo*routeThree*routeFour*routeFive}")
+
+    //Day Four
+    val d4 = DayFour()
+    d4.readPassportFile()
+    d4.validatePassportsByField()
+    d4.validatePassportsByFieldAndReq()
 
 }

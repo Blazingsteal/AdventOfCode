@@ -5,7 +5,7 @@ import java.io.File
 class DayThree {
 
     private val slopeMap = mutableListOf<String>()
-    private val slopeMapFile = File("./dayThree.txt")
+    private val slopeMapFile = File("./inputs/dayThree.txt")
     private val tree = "#"
 
     fun readMapFile() {
@@ -14,8 +14,6 @@ class DayThree {
                 slopeMap.add(it)
             }
         }
-        println(slopeMap)
-        println(slopeMap.size)
     }
 
     fun traverseMap(right: Int, down: Int): Long{
